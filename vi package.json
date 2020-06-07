@@ -1,0 +1,263 @@
+[33mcommit 3ed85cd6ab34ebb7494ef4342aadc956ee3a497f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/githab[m[33m, [m[1;32mgithab[m[33m)[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Thu Jun 4 23:59:19 2020 +0300
+
+    changed  package.json
+
+[33mcommit 7ea0055953442d6f685adac9f884892f73697382[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat May 23 12:59:48 2020 +0300
+
+    Add GitHub Pages config.
+
+[33mcommit e946ef302370b8d2f8797375c47556b6b798d8cd[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri May 22 18:11:43 2020 +0300
+
+    refactoring
+
+[33mcommit 2710a6f7f6a1203f2fbe6d4f0e43c08fa959edcb[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue May 5 11:10:55 2020 +0300
+
+    captcha
+
+[33mcommit 0a4420ff2075628ec4b89228c7c24b0999b66f83[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sun May 3 20:28:19 2020 +0300
+
+    update profile
+
+[33mcommit a7795de88540d3e9625416946e06970487f74c07[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri May 1 15:12:29 2020 +0300
+
+    refactoring
+
+[33mcommit 9b13c083ed27a68d44a4781b24c14ca755ba23c8[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Wed Apr 29 15:56:32 2020 +0300
+
+    Suspense1
+
+[33mcommit 19ba4473ceeec823d7214d4c74f8bd4f8e3e3bb8[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 28 13:08:50 2020 +0300
+
+    refactoring
+
+[33mcommit 64dbe56f5bb7c8142cd40bc362c8b4657f8c2cbf[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat Apr 25 19:54:52 2020 +0300
+
+    React.memo
+
+[33mcommit 3be3989f2bb2e335e9d5b8800e5bff28f3f47262[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat Apr 25 18:29:45 2020 +0300
+
+    shouldComponentUpdate, PureComponent
+
+[33mcommit d623cdb21c12fabc0d76e6e454913f75aa0bd03f[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat Apr 25 15:31:22 2020 +0300
+
+    hook, useEffect
+
+[33mcommit 48a2fafb0756fabc900a6877c4f10260e7d3809f[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat Apr 25 14:59:50 2020 +0300
+
+    hook,useState
+
+[33mcommit e6d8595e3c2864105a31a3802f9517dadde7de44[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat Apr 25 11:53:20 2020 +0300
+
+    reselect part 3
+
+[33mcommit c4ff372ff3a2f5fbb7832b2c6f1fe41c8e801852[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Thu Apr 23 18:55:10 2020 +0300
+
+    recelect part1
+
+[33mcommit 7b0ed897cbbe9809426d60a908253c374d4871af[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Thu Apr 23 17:46:19 2020 +0300
+
+    initialized
+
+[33mcommit 79e6c1297a9466aeb9628cca1896ed7a1291ae44[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Thu Apr 23 13:40:38 2020 +0300
+
+    stopSubmit (redux-form)
+
+[33mcommit b11eca6e6391413da8e856996d7ae2bf5df7bbfc[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Thu Apr 23 10:22:06 2020 +0300
+
+    login & logout
+
+[33mcommit e40efd2932187a70968551536f03cacd02aab308[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Wed Apr 22 13:35:06 2020 +0300
+
+    redux-form field validation
+
+[33mcommit f2cca9539ee21904776a8a335c4a213bfd7e1169[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 21 14:55:44 2020 +0300
+
+    redux-form 2
+
+[33mcommit 9b25327bffe378230bcb6572fb90dc54a431cc5d[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 21 10:13:50 2020 +0300
+
+    redux-form
+
+[33mcommit ef50374e2acdabb828084f9b268e9b9716ed4d70[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Mon Apr 20 15:23:24 2020 +0300
+
+    componentDidUpdate
+
+[33mcommit 83075bfbb5d8a580e57f21899ef53a9c7b88b388[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Mon Apr 20 11:50:32 2020 +0300
+
+    http put, local state
+
+[33mcommit 37ff31e8748e558b8ff51a9ea4a7c9822e5a48b6[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sun Apr 19 12:13:44 2020 +0300
+
+    setState, local state
+
+[33mcommit e759592e4005dfc9e6587998d01fa511157b5895[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sun Apr 19 09:17:08 2020 +0300
+
+    Функция compose
+
+[33mcommit 04937509f7307ae7feba168dde08a9c9653a0229[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sat Apr 18 15:24:57 2020 +0300
+
+    High Order Component (hoc)
+
+[33mcommit 7fa9026687bac4feecc4f35774af95f0fbb881fa[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri Apr 17 17:33:48 2020 +0300
+
+    Redirect
+
+[33mcommit 936cee33576dbef369903f7192933a0b6db3da8c[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri Apr 17 16:07:14 2020 +0300
+
+    redux-thunk 2
+
+[33mcommit fdab65d22003788e0d895106892889fcf8a6a259[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri Apr 17 13:20:54 2020 +0300
+
+    redux-thunk
+
+[33mcommit e1335ad51262f01b5bf49a8b8eefe3d84fd006da[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Wed Apr 15 17:09:38 2020 +0300
+
+    button disabled (follow\unfollow)
+
+[33mcommit c26fddfd0eef597972a79ba24afca6dede22b371[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Wed Apr 15 14:03:24 2020 +0300
+
+    DAL, axios.create
+
+[33mcommit 9d79fe382dbc2d620c22aea9350ec5971897a333[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Wed Apr 15 11:41:47 2020 +0300
+
+    follow-unfollow api
+
+[33mcommit 54fbc5b09c567277d2fd8604764ca58ba01fd999[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Mon Apr 13 19:24:07 2020 +0300
+
+    AJAX
+
+[33mcommit 35402eb2fbb33b35a1adcc8e6731546d8382cc0c[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 7 23:21:28 2020 +0300
+
+    Pagination
+
+[33mcommit bc4850eee3f74cf2fce374f40c4f7091fe9056f9[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 7 15:38:57 2020 +0300
+
+    life cycle methods
+
+[33mcommit e1fa0657c71ef8232b4a84aba39e56bd89ddceba[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 7 10:55:41 2020 +0300
+
+    Side Effect
+
+[33mcommit 7423dad2ed6507b9bc380d57da4d89a583442bbb[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Apr 7 10:08:40 2020 +0300
+
+    Users API
+
+[33mcommit 88d7ad7a2fe4f1dfb8d4a4a3b2875666514bdafc[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Mon Apr 6 15:49:26 2020 +0300
+
+    Users Page
+
+[33mcommit 865ae8de43a4ab5e343c42e90384eeaff23dced9[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri Apr 3 18:58:25 2020 +0300
+
+    stateCopy in DialogReducer
+
+[33mcommit e909a19c5b1a27ff2fcfc1d8c9f8b334cf81d755[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Fri Apr 3 12:20:54 2020 +0300
+
+    connect, mapStateToProps, mapDispatchToProps
+
+[33mcommit 5d9e117e2cc9aa2a4181952a52c5cff7ba7cf325[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Mar 31 19:50:28 2020 +0300
+
+    StoreContext
+
+[33mcommit f00a0eb7e7bed0a0d07305dfc09eb1539660c203[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Mar 31 13:54:01 2020 +0300
+
+    Fourth commit
+
+[33mcommit 08ba7a878d404446eda6caa69121e07bd51f8835[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Tue Mar 24 18:30:54 2020 +0300
+
+    Third commit
+
+[33mcommit da858d72ad06b2437ba201c6cac877b4e6e054ac[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sun Mar 22 15:50:45 2020 +0300
+
+    Third commit
+
+[33mcommit 89cea2a959793049fa90626d37b602fe6064c588[m
+Author: Salmanovich Kristina <krisisei222@gmail.com>
+Date:   Sun Mar 22 14:07:02 2020 +0300
+
+    Third commit
