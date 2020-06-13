@@ -7,5 +7,7 @@
 }
 
 .contact {
+    display: inline;
     padding-left: 10px;
+    color: rgb(41, 5, 29);
 }

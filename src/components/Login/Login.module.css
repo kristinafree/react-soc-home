@@ -1,8 +1,8 @@
-.log button{
-    background-color: rgb(255, 253, 127);
-    border-radius: 10rem;
+button{
+    background-image: linear-gradient(to right, rgb(190, 128, 182) 0%, rgb(151, 55, 143) 51%, rgb(70, 25, 58) 100%);
+    box-shadow: 0 16px 32px 0 rgba(156, 176, 218, 0.35);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    letter-spacing: 2px;
 }
 
-.form {
-    border-radius: 5rem;
-}

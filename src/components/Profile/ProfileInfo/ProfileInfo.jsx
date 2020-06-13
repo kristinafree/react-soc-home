@@ -8,6 +8,7 @@ import ProfileDataForm from './ProfileDataForm';
 const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, saveProfile}) => {
 
     let [editMode, setEditMode] = useState(false);
+    let [display, setDisplay] = useState(false);
 
     if (!profile) {
       return <Preloader />
@@ -18,6 +19,10 @@ const ProfileInfo = ({profile, status, updateStatus, isOwner, savePhoto, savePro
         savePhoto(e.target.files[0]);
       }
     }
+
+    // if (!onMainPhotoSelected){
+    //   className
+    // }
 
     const onSubmit = (formData) => {
       saveProfile(formData).then( 

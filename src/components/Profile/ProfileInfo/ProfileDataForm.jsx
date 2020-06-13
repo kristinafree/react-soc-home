@@ -6,23 +6,23 @@ import style from '../../common/FormsControls/FormsControls.module.css';
 
 const ProfileDataForm = ({handleSubmit, profile, error}) => {
     return <form onSubmit = {handleSubmit}>
-    <div><button>save</button></div>
+    <div style={{color: "000"}}><button>save</button></div>
     {error && <div className = {style.formSummaryError}>
         {error}
     </div>
     }
     <div>
-        <b>Full name</b>: {createField("Full name", "fullName", [], Input)}
+        Full name: {createField("Full name", "fullName", [], Input)}
     </div>
     <div>
-        <b>Looking for a job</b>: { createField("", "lookingForAJob", [] , Input, {type: "checkbox"} )}
+        Looking for a job: { createField("", "lookingForAJob", [] , Input, {type: "checkbox"} )}
     </div>
     <div>
-        <b>My professional skills</b>: 
+        My professional skills: 
         { createField("My professional skills", "lookingForAJobDescription", [] , Textarea )}
     </div>
     <div>
-        <b>About me</b>:
+        About me:
         { createField("About me", "aboutMe", [] , Textarea )}
     </div>
     <div>

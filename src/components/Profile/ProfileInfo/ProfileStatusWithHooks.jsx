@@ -27,7 +27,7 @@ const ProfileStatusWithHooks = (props) => {
         <div>
             {!editMode &&
                 <div>
-                    <b>Status:</b><span onDoubleClick ={activateEditMode}> {props.status || '---'} </span>
+                    <b>Status:</b><span onDoubleClick ={activateEditMode}> {props.status || <img style={{width: "20px", height: "20px"}} src={'https://image.flaticon.com/icons/svg/3035/3035659.svg'} />} </span>
                 </div>
             }
             {editMode && 

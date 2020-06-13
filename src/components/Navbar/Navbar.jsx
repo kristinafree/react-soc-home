@@ -33,7 +33,7 @@ const Navbar = () => {
             <NavLink to = "/music" activeClassName = {s.activeLink}>Music</NavLink>
           </div>
           <div className = {s.item}>
-            <NavLink to = "/setting" activeClassName = {s.activeLink}>Settings</NavLink>
+            <NavLink to = "/timer" activeClassName = {s.activeLink}>Timer</NavLink>
           </div>
       </nav>
 )}

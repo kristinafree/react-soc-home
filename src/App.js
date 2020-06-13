@@ -9,11 +9,12 @@ import { connect, Provider } from 'react-redux';
 import { compose } from 'redux';
 import {initializeApp} from './redux/app-reducer.js'
 import Preloader from './components/common/Preloader/Preloader';
-import News from './components/News';
-import Music from './components/Music/Music';
-import Settings from './components/Settings';
 import {withSuspense} from './hoc/withSuspense';
 import store from './redux/redux-store'
+import Music from './components/Music/Music.jsx';
+import News from './components/News/News';
+import Timer from './components/Timer/Timer';
+
 
 //import DialogsContainer from './components/Dialogs/DialogsContainer';
 const DialogsContainer = React.lazy(() => import('./components/Dialogs/DialogsContainer'));
@@ -58,8 +59,8 @@ class App extends Component {
                                                  render = { () => <News /> }/>
                                       <Route path = '/music' 
                                                  render = { () => <Music /> }/>
-                                      <Route path = '/setting' 
-                                                 render = { () => <Settings /> }/>
+                                      <Route path = '/timer' 
+                                                 render = { () => <Timer /> }/>
                                       <Route path = '*' 
                                                  render = { () => <div>404 NOT FOUND</div> }/>
                                    </Switch>
