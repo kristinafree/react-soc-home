@@ -7,13 +7,17 @@ import HeaderContainer from './components/Header/HeaderContainer';
 import LoginPage from './components/Login/Login';
 import { connect, Provider } from 'react-redux';
 import { compose } from 'redux';
-import {initializeApp} from './redux/app-reducer.js'
+import {initializeApp} from './redux/app-reducer.ts'
 import Preloader from './components/common/Preloader/Preloader';
 import {withSuspense} from './hoc/withSuspense';
 import store from './redux/redux-store'
 import Music from './components/Music/Music.jsx';
 import News from './components/News/News';
 import Timer from './components/Timer/Timer';
+
+
+
+
 
 
 //import DialogsContainer from './components/Dialogs/DialogsContainer';

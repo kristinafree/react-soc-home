@@ -1,46 +1,47 @@
 import React, {useState, useEffect} from 'react'
-import styles from './timer.module.css'
-import addImg from '../../assets/images/play-button.png'
-import removeImg from '../../assets/images/remove.png'
+import s from './timer.module.css'
 
 const Timer = () => {
-  let init = 0 
-  const [second, setSecond] = useState(init)
+  const [seconds,setSeconds] = useState(0)
+  const [isActive,setIsActive] = useState(false)
 
-
-  const startTime = () => {
-   let timer =  setInterval(()=> setSecond(second + 1), 1000)
+  function toggle(){
+    setIsActive(!isActive)
   }
 
-  
-  // useEffect(
-  //   () => {
-  //     return () => {
-  //       clearTimeout(timer)
-  //     }
-  //   },
-  //   [second]
-  // )
-
-  const stopTime = (timer) => {
-    return clearTimeout(timer)
+  function reset(){
+    setSeconds(0)
+    setIsActive(false)
   }
 
-  // tick() {
-  //   this.setState(state => ({
-  //     seconds: state.seconds + 1
-  //   }));
-  // }
+  useEffect(()=> {
+    let interval = null;
+    if(isActive) {
+      interval = setInterval(()=> {
+        setSeconds(seconds => seconds + 1)
+      }, 1000)
+    } else if (!isActive && seconds !==0) {
+      clearInterval(interval)
+    }
+    return () => clearInterval(interval)
+  },[isActive,seconds])
+
 
   return(
-    <>
-    <div>Time: {second}</div>
-    <button onClick={startTime()}>Start</button>
-    <button onClick={stopTime}>Stop</button>
-    </>
+    <div className={s.app}>
+      <div className="time">
+        {seconds}s
+      </div>
+      <div className={s.row}>
+        <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`} onClick={toggle}>
+          {isActive ? 'Pause' : 'Start'}
+        </button>
+        <button className="button-secondary" onClick={reset}>
+          Reset
+        </button>
+      </div>
+    </div>
   )
-
-  
 }
-
-export default Timer;
+  
+export default Timer

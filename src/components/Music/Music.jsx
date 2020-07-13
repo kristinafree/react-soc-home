@@ -23,10 +23,10 @@ const Music = () => {
       <div>
           <h1 style={{color: "911A91"}}>PLAYLIST <img /> </h1>
               <p>{count}</p>
-               <button style={{backgroundcolor: "fff", color: "fff", borderRadius: '10'}}onClick={addTreack}>
+               <button style={{width: 70, height: 55, backgroundcolor: "fff", color: "fff", borderRadius: 50, border: 'none'}}onClick={addTreack}>
                 <img src={addImg} /> 
               </button>
-               <button onClick={removeTreack}>
+               <button style={{width: 70, height: 55, borderRadius: 50, border: 'none', borderColor: 'none'}} onClick={removeTreack}>
                <img src={removeImg} /> 
               </button>
       </div>

@@ -5,15 +5,16 @@ import logo from '../../logo.png';
 
 const Header = (props) => {
     return (
+    <>
     <header className = {s.header}>
       <img src = {logo} />
-
       <div className = {s.loginBlock}>
           {props.isAuth 
           ? <div>{props.login} - <button onClick = {props.logout}>Log out</button></div>
-            : <NavLink to = {'/login'}>Login</NavLink> }
+            : <NavLink to = {'/login'}>LOGO</NavLink> }
       </div>
     </header>
+    </>
 )}
 
 export default Header;

@@ -1,4 +1,16 @@
+import { type } from "os";
+
 const SEND_MESSAGE = 'SEND_MESSAGE';
+
+type DialogType = {
+    id: number,
+    name: string
+}
+
+type MessageType = {
+    id: number,
+    message: string
+}
 
 let initialState = {
     dialogs:[
@@ -8,7 +20,7 @@ let initialState = {
         {id: 4, name: 'Sergey'},
         {id: 5, name: 'Kris'},
         {id: 6, name: 'Yura'},
-    ],
+    ] as Array<DialogType>,
 
     messages: [
         {id: 1, message: "Hi"},
@@ -17,10 +29,12 @@ let initialState = {
         {id: 4, message: "Love"},
         {id: 5, message: "Love"},
         {id: 6, message: "Love"},
-    ]
-};
+    ] as Array<MessageType>
+}
 
-const dialogsReducer = (state = initialState, action) => {
+export type InitialStateType = typeof initialState
+
+const dialogsReducer = (state = initialState, action: any) => {
     switch(action.type) {
         case SEND_MESSAGE:
             let body = action.newMessageBody;
@@ -33,6 +47,11 @@ const dialogsReducer = (state = initialState, action) => {
     }
 }
 
-export const sendMessageCreator = (newMessageBody) => ({type: 'SEND_MESSAGE', newMessageBody}) 
+type SendMessageCreatorActionType = {
+    type: typeof SEND_MESSAGE,
+    newMessageBody: string
+}
+
+export const sendMessageCreator = (newMessageBody: string): SendMessageCreatorActionType => ({type: 'SEND_MESSAGE', newMessageBody}) 
 
 export default dialogsReducer;
